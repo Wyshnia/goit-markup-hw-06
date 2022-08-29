@@ -518,12 +518,23 @@ img {
 .subscribe-input {
     width: 358px;
     height: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background-color: #2F303A;
     border-radius: 4px;
     padding-left: 16px;
-    background: #2F303A;
     margin-right: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
     
+    
+}
+
+.subscribe-input::placeholder {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .subscribe-btn {
@@ -532,10 +543,14 @@ img {
     justify-content: center;
     width: 200px;
     height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
     background: #2196F3;
     color: #FFFFFF;
     border-radius: 4px;
     cursor: pointer;
+    border: 1px solid #2196F3;
 }
 
 .subscribe-btn::after {

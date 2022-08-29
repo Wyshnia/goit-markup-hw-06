@@ -730,6 +730,7 @@ margin-bottom: 16px;
 
 .subscribe-form {
     display: flex;
+    
 }
 
 .subscribe-title {
@@ -747,12 +748,22 @@ margin-bottom: 16px;
 .subscribe-input {
     width: 358px;
     height: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background-color: #2F303A;
     border-radius: 4px;
     padding-left: 16px;
-    background: #2F303A;
     margin-right: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 
+}
+
+.subscribe-input::placeholder {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .subscribe-btn {
@@ -761,11 +772,17 @@ margin-bottom: 16px;
     justify-content: center;
     width: 200px;
     height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
     background: #2196F3;
     color: #FFFFFF;
     border-radius: 4px;
     cursor: pointer;
+    border: 1px solid #2196F3;
+
 }
+
 
 .subscribe-btn::after {
     content: "";
@@ -775,6 +792,7 @@ margin-bottom: 16px;
     background-size: contain;
     background-image: url(../images/icon\ send.png);
 }
+
 
 .backdrop {
     position: fixed;
@@ -802,7 +820,7 @@ margin-bottom: 16px;
     cursor: pointer;
 }
 
-.modal-icon:hover {
+.modal-close:hover {
     fill: #2196F3;
 }
 .modal-title {
@@ -828,7 +846,8 @@ margin-bottom: 16px;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    padding-left: 42px;
+    padding-left: 40px;
+    margin-top: 4px;
     
 }
 
@@ -858,7 +877,7 @@ margin-bottom: 16px;
     line-height: 1.16;
     letter-spacing: 0.01em;
     color: #757575;
-    margin-bottom: 4px;
+    
 }
 
 .modal-text {
@@ -868,6 +887,7 @@ margin-bottom: 16px;
       border-radius: 4px;
       resize: none;
       padding: 12px 16px;
+      margin-top: 4px;
       margin-bottom: 20px;
       font-weight: 400;
       font-size: 12px;
@@ -883,9 +903,6 @@ line-height: 1.16;
 letter-spacing: 0.01em;
 color: rgba(117, 117, 117, 0.5);
 }
-
-
-
 
 .checkbox {
     position: absolute;
@@ -905,7 +922,10 @@ color: rgba(117, 117, 117, 0.5);
     height: 15px;
     border: 2px solid #212121;
     border-radius: 3px;
+    margin-left: 12px;
     margin-right: 8.38px;
+
+    
    
 }
 
@@ -955,6 +975,10 @@ color: rgba(117, 117, 117, 0.5);
     height: 50px;
     left: 700px;
     top: 712px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
